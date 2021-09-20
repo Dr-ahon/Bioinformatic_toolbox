@@ -1,0 +1,17 @@
+[[package]]
+name = "pymsa"
+version = "0.8.1"
+description = "Scoring Multiple Sequence Alignments with Python"
+category = "main"
+optional = false
+python-versions = ">=3"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.9"
+content-hash = "e78c29889603823a9d90eb7595e09e31237efa09e8b6c90e3c7768cb864d03cd"
+
+[metadata.files]
+pymsa = [
+    {file = "pyMSA-0.8.1.tar.gz", hash = "sha256:3f68cb7b50f46c25a36206ec609ef23fc7dd487c54341b3711d7152ee87cee22"},
+]
