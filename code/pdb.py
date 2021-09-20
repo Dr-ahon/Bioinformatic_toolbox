@@ -53,7 +53,6 @@ class Structure:
                 burDict[am.get_resname()] = 1
             if isPolar(am.get_resname()):
                 polarBur += 1
-        print(polarBur)
         return {"buried": {"ratio": len(bur) / (len(bur) + len(surf)),
                            "buried polar": polarBur / len(bur),
                            "distribution": burDict,
@@ -96,18 +95,3 @@ class Atom:
     def __init__(self, atom):
         self.atom = atom
 
-
-def main(srgv):
-    strctr = Structure("data/A2a.pdb")
-    surfBurDict = strctr.getSurfaceBuriedRatio()
-    ratio = surfBurDict["buried"]["ratio"]
-    buriedComposition = surfBurDict["buried"]["distribution"]
-    surfaceComposition = surfBurDict["surface"]["distribution"]
-    surfacePolar = surfBurDict["surface"]["surface polar"]
-    buriedPolar = surfBurDict["buried"]["buried polar"]
-    print(surfacePolar)
-    print(buriedPolar)
-    print(ratio)
-
-if __name__ == '__main__':
-    main(sys.argv[1:])

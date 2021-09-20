@@ -115,4 +115,4 @@ Using the previous function we got following data.\
 In the A2a receptor 56% of all amino acids are buried, 29% of buried amino acids are polar and 49% of surface amino acids are polar.
 In the hemoglobin protein 45% of all amino acids are buried, 28% of buried amino acids are polar and 49% of surface amino acids are polar.
 Proportions of polar to nonpolar amino acids on the surface and inside are in both proteins roughly the same, but in the ratio of all buried aa to surface aa
-they do slightly differ. Hemoglobin has more buried aa than A2a receptor, therefore is very likely more compact
+they do slightly differ. Hemoglobin has more buried aa than A2a receptor, therefore is very likely more compact and round in comparison to A2a. 

@@ -1,7 +1,0 @@
-hemoglobin
-buried {'ratio': 0.45390070921985815, 'buried polar': 0.28125, 'distribution': {'GLN': 4, 'LYS': 6, 'ASN': 1, 'VAL': 7, 'SER': 2, 'TRP': 4, 'ALA': 12, 'GLY': 2, 'PRO': 1, 'GLU': 2, 'PHE': 9, 'MET': 4, 'LEU': 6, 'CYS': 1, 'ASP': 1, 'THR': 1, 'ILE': 1}}
-surface {'ratio': 0.5460992907801419, 'surface polar': 0.4935064935064935, 'distribution': {'LEU': 3, 'SER': 8, 'ALA': 16, 'ASP': 7, 'LYS': 5, 'GLY': 14, 'THR': 4, 'HIS': 2, 'PHE': 1, 'ASN': 5, 'PRO': 2, 'GLU': 3, 'GLN': 1, 'ARG': 2, 'ILE': 1, 'TYR': 1, 'MET': 2}}
-
-A2a
-buried {'ratio': 0.5631067961165048, 'buried polar': 0.29310344827586204, 'distribution': {'GLU': 3, 'LEU': 24, 'ILE': 21, 'ALA': 25, 'VAL': 21, 'GLY': 4, 'ASN': 8, 'CYS': 10, 'TRP': 3, 'THR': 5, 'TYR': 6, 'PHE': 14, 'SER': 9, 'ASP': 3, 'PRO': 7, 'HIS': 3, 'ARG': 2, 'MET': 4, 'LYS': 1, 'GLN': 1}}
-surface {'ratio': 0.4368932038834951, 'surface polar': 0.4888888888888889, 'distribution': {'SER': 7, 'VAL': 7, 'TYR': 5, 'ILE': 7, 'THR': 6, 'ALA': 12, 'TRP': 3, 'LEU': 15, 'ASN': 6, 'GLN': 9, 'GLY': 12, 'ARG': 11, 'PRO': 4, 'LYS': 7, 'GLU': 6, 'HIS': 4, 'CYS': 4, 'PHE': 7, 'MET': 2, 'ASP': 1}}

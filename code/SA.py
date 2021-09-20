@@ -78,16 +78,3 @@ class Alignment:
                     nBest.remove(scores[i])
                     break
         return conservedPositions
-
-
-def main(argv):
-    with open("p53_clustal") as f:
-        a = Alignment(f)
-        b = sm.load("BLOSUM62")
-        #print(a.getMSAConservationScore())
-        #print(a.getTopNConserved(10))
-    print(align("clock", "lacks"))
-
-
-if __name__ == '__main__':
-    main(sys.argv[1:])
