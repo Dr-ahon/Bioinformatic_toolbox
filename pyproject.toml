@@ -1,15 +1,17 @@
 [tool.poetry]
-name = "fasta"
-version = "0.1.0"
-description = ""
 authors = ["Lucie Drahonovska <luckadrahonovska@seznam.cz>"]
+description = ""
+license = "MIT"
+name = "bioinformatic_toolbox"
+version = "0.1.0"
 
 [tool.poetry.dependencies]
-python = "^3.9"
-pyMSA = "^0.8.1"
+biopython = "^1.79"
+python = ">=3.9,<3.10"
+scipy = "^1.7.1"
 
 [tool.poetry.dev-dependencies]
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
