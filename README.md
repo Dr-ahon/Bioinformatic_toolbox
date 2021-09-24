@@ -1,3 +1,9 @@
+## Project setup
+
+1. Intall poetry package from https://python-poetry.org/docs/
+2. run `poetry install` for the dependencies installation
+3. Not all the files are supposed to be handled the same way. Some are in the form of a commandline app, thus can be run from terminal, others are more like a library and can be used in another project. There is an info about this type of file in the description of each file.
+4. 
 ### Processing FASTA files
 
 Program processing FASTA files can be found in toolbox/fasta.py file. It is in a form of commandline app accepting following parameters:
@@ -11,11 +17,14 @@ Program processing FASTA files can be found in toolbox/fasta.py file. It is in a
 
 the `-f` option is obligatory for each call, the rest is optional\
 After calling, it automatically parses the FASTA file and runs appropriate functions.
+The calls should be in the followong format: 
+`poetry run scriptName arguments`
+In the examples it was ommited for brevity.
 
 Examples:
 ```commandline
-fasta.py -f "data/sequence" -q "QGKT01000001.1"
-fasta.py -f "data/sequence" -s "QGKT01000001.1" 34 789
+src/fasta.py -f "data/sequence" -q "QGKT01000001.1"
+src/fasta.py -f "data/sequence" -s "QGKT01000001.1" 34 789
 ```
 
 
@@ -28,7 +37,7 @@ Program measuring sequence similarity can be found in toolbox/hamming.py file. I
 
 Example:
 ```commandline
-hamming.py -f "data/sequence" -s "TEST1" "TEST2"
+src/hamming.py -f "data/sequence" -s "TEST1" "TEST2"
 ```
 I have modified the "sequence" file by adding two made up sequences named "TEST1" and "TEST2" of the same length for the testing sake.
 
